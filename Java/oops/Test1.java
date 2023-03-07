@@ -1,0 +1,39 @@
+class Circle 
+{
+	public static void main(String[] args) 
+	{
+		int radius;
+		void initialize(int r)
+		{
+			radius=r;
+		}
+		void displayArea()
+		{
+			System.out.println("area="+(3.14*radius*radius));
+		}
+	}
+}
+class Calc
+{
+	static void add(int a, int b)
+	{
+		System.out.println(a+b);
+	}
+}
+class Test1
+{
+	public static void main(String[] args)
+	{
+		//Calc c1= new Calc();
+		//c1.add(10,20);
+		//Calc c2=new Calc();
+		//c2.add(10,20);
+		Calc.add(10,20);
+		Circle circle1=new Circle();
+		circle1.initialize(20);
+		Circle circle2=new Circle();
+		circle2.initialize(40);
+		circle1.displayArea();
+		circle2.displayArea();
+	}
+}

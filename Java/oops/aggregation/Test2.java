@@ -1,0 +1,39 @@
+class Test2 
+{
+	public static void main(String[] args) 
+	{
+		Car c1=new Car();
+		Driver d1=new Driver(c1);
+		d1.drive();
+		d1.drive();
+	}
+}
+class Car
+{
+	int num;
+	private static int n=1000;
+	{
+		num=n++;
+	}
+	void start(){
+		System.out.println(num+"car starts");
+	}
+	void accelerate(){
+		System.out.println(num+"car accelerates");
+	}
+	void brake(){
+		System.out.println(num+"car stopped");
+	}
+}
+class Driver
+{
+	private Car c;
+	Driver(Car c){
+		this.c=c;
+	}
+	void drive(){
+		c.start();
+		c.accelerate();
+		c.brake();
+	}
+}

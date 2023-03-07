@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Factorial 
+{
+	public static void main(String[] args) 
+	{
+		Scanner a= new Scanner(System.in);
+		System.out.println("Enter a number");
+		double n=a.nextDouble();
+		double fact=1;
+		for (double i=1;i<=n ;i++ )
+		{
+			fact=fact*i;
+		}
+		System.out.println("Factorial of the number="+fact);
+	}
+}

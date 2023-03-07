@@ -1,0 +1,24 @@
+class Rectangle 
+{
+	int length;
+	int breadth;
+	void initialize(int l, int b)
+	{
+		length=l;
+		breadth=b;
+	}
+	void display()
+	{
+		System.out.println("[" +length+","+breadth+"]");
+	}
+}
+class Test4
+{
+	public static void main(String[] args) 
+	{
+		Rectangle r1=new Rectangle();
+		r1.initialize(10,20);
+		Rectangle r2= new Rectangle();
+		r2.initialize(30,40);
+	}
+}

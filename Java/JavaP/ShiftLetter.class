@@ -1,0 +1,18 @@
+at a tip" dir="ltr" border="1" width="80%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<tbody>
+<tr>
+<td align="left">
+<p class="notep1">See Also:</p>
+<a href="#BCFDAGCB">"Assigning Logical Names"</a> for more information about using <code>diskpart</code> to create a partition</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="inftblNoteAlso --></div>
+</div>
+<!-- class="sect2" -->
+<a id="CDEDIHCD" name="CDEDIHCD"></a>
+<div class="sect2"><!-- infolevel=all infotype=General --><a id="sthref351" name="sthref351"></a>
+<h3><span class="secnum">3.4.5</span> Step 4: Manually Configuring Disks for Automatic Storage Management</h3>
+<p>To use Automatic Storage Management with direct attached storage (DAS) or storage area network (SAN) storage, the disks must be stamped with a header. If you install Oracle Database in interactive mode, then Oracle Universal Installer configures the disks' headers during the installation process.</p>
+<p>However, if you plan to install Oracle Database in noninteractive mode, then you need to configure the disks manually before installation either by using <code>asmtoolg</code> (GUI version) or using <code>asmtool</code> (command line version). You can also use these tools to reconfigure the disks after installation. The <code>asmtoolg</code> and <code>asmtool</code> utilities only work on partitione

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class  Test
+{
+	public static void main(String[] args) 
+	{
+
+		Scanner s=new Scanner(System.in);
+		String str=s.nextLine();
+		Test1.word(str);
+
+		int n=s.nextInt();
+		int temp=n,rev=0,a=0;
+		while(n!=0){
+			a=n%10;
+			rev=rev*10+a;
+			n/=10;
+		}
+		if(rev==temp){
+		System.out.println("palindrome");
+		} else System.out.println("not palindrome");
+	}
+
+}
+class Test1
+{
+	static void word(String str){
+		String rev="";
+		for(int i=str.length()-1;i>=0;i--){
+			rev=rev+str.charAt(i);
+		}
+		if(rev.equals(str)){
+			System.out.println("palindrome");
+		} else System.out.println("not palindrome");
+	}
+
+}

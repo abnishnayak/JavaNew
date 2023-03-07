@@ -1,0 +1,16 @@
+class D
+{
+	D(){
+		new D(10);
+	}
+	D(int i){
+	}
+}
+class Test6 
+{
+	public static void main(String[] args) 
+	{
+		new D();
+		System.out.println(D());
+	}
+}

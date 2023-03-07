@@ -1,0 +1,35 @@
+class Test2
+{
+	public static void main(String[] args) 
+	{
+		Driver d1=new Driver();
+		d1.drive(new Audi());
+		d1.drive(new Benz());
+	}
+}
+class Car
+{
+	void start(){}
+	void accelerate(){}
+	void stop(){}
+}
+class Audi extends Car
+{
+	void start(){ System.out.println("Audi Starts");}
+	void accelerate(){ System.out.println("Audi accelerates");}
+	void stop(){ System.out.println("Audi stopped");}
+}
+class Benz extends Car
+{
+	void start(){ System.out.println("Benz Starts");}
+	void accelerate(){ System.out.println("Benz accelerates");}
+	void stop(){ System.out.println("Benz stopped");}
+}
+class Driver
+{
+	void drive(Car c){
+		c.start();
+		c.accelerate();
+		c.stop();
+	}
+}

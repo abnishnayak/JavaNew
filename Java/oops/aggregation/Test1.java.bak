@@ -1,0 +1,23 @@
+class Test1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+class A
+{
+	int i;
+	A(int i){
+		this.i=i;
+	}
+}
+class B
+{
+	A a;
+	void m1(){
+		System.out.println("m1 starts");
+		System.out.println(a.i);
+		System.out.println("m1 ends");
+	}
+}

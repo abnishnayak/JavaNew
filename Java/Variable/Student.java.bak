@@ -1,0 +1,29 @@
+class  Student
+{
+	String name;
+	double marks;
+	String city;
+	static String institute;
+}
+class User
+{
+	public static void main(String[] args) 
+	{
+		Student.abnishInfo= new Student();
+		abnishInfo.name="Abnish";
+		abnishInfo.marks=73.05;
+		abnishInfo.city="Sambalpur";
+		
+		Student.manasInfo= new Student();
+		manasInfo.name="Manas";
+		manasInfo.marks=89.56;
+		manasInfo.city="Rourkela";
+
+		Student.sunilInfo= new Student();
+		sunilInfo.name="Sunil";
+		sunilInfo.marks=90.25;
+		sunilInfo.city="Berhampur";
+
+		Student.institute="Jspiders";
+	}
+}

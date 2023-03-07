@@ -1,0 +1,24 @@
+//WAP to check whether the given number is even or odd without using Arithmetic operators.
+import java.util.Scanner;
+class EorO
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=s.nextInt();
+		boolean k= true;
+		for (int i=1;i<=n ;i++ )
+		{
+			k=!k;
+		}
+		if (k)
+		{
+			System.out.println(n+" is an even number.");
+		}
+		else
+		{
+			System.out.println(n+" is an odd number.");
+		}
+	}
+}

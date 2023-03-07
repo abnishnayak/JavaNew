@@ -1,0 +1,19 @@
+class Test2 
+{
+	public static void main(String[] args) 
+	{
+		Animal a=new Labrador();
+		Dog d=(Dog) a;
+	}
+}
+class Animal
+{
+}
+class Dog extends Animal
+{
+	System.out.println("Its a dog.");
+}
+class Labrador extends Dog
+{
+	System.out.println("more specifically its a breed of dog.");
+}

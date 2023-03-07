@@ -1,0 +1,14 @@
+class B 
+{
+	void B(){
+		System.out.println("method B() is executed");
+	}
+}
+class Test3
+{
+	public static void main(String[] args) 
+	{
+		B b1=new B();
+		b1.B();
+	}
+}

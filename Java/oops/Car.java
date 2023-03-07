@@ -1,0 +1,26 @@
+class Car 
+{
+	int n;
+	void move()
+	{
+		System.out.println(n+" Car is moving.");
+	}
+	void stop()
+	{
+		System.out.println(n+" Car is stopped.");
+	}
+}
+class Test3
+{
+	public static void main(String[] args) 
+	{
+		Car c1=new Car();
+		c1.n=5161;
+		Car c2=new Car();
+		c2.n=9874;
+		c1.move();
+		c1.stop();
+		c2.move();
+		c2.stop();
+	}
+}

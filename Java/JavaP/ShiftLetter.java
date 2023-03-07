@@ -1,0 +1,22 @@
+//WAP to shift the characters of the string to left side based on the even position.
+import java.util.Scanner;
+class ShiftLetter
+{
+	public static void main(String[] args) 
+	{
+		Scanner a=new Scanner(System.in);
+		System.out.println("Enter a String");
+		String b=a.nextLine();
+		String c="";
+		Scanner d=new Scanner(System.in);
+		System.out.println("Enter the number of rotation");
+		int n=d.nextInt();
+		for (int i=0;i<b.length() ;i++ )
+		{
+			int k=i+n;
+			k=k%b.length();
+			c=c+b.charAt(k);
+		}
+		System.out.println(c);
+	}
+}

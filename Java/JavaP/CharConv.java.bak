@@ -1,0 +1,26 @@
+//WAP to accept a string and convert all the uppercase characters to lowercase and lowercase to uppercase characters.
+import java.util.Scanner;
+class CharConv
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a string which contains lowercase and uppercase letters combined");
+		String t=s.next();
+		String a="";
+		for (int i=0;i<a.length() ;i++ )
+		{
+			char c=t.charAt(i);
+			if (c>='A' && c<='Z')
+			{
+				c=(char)(c+32);
+			}
+			else
+			{
+				c=(char)(c-32);
+			}
+			a=a+c;
+		}
+		System.out.println(a);
+	}
+}

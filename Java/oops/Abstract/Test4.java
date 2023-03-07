@@ -1,0 +1,23 @@
+class Test4 
+{
+	void m1(Animal a){
+		System.out.println("m1(Animal)");
+	}
+	void m1(Dog d){
+		System.out.println("m1(Dog)");
+	}
+	public static void main(String[] args)
+	{
+		Test4 t=new Test4();
+		t.m1(null);
+	}
+}
+class Animal
+{
+}
+class Dog extends Animal
+{
+}
+class Cat extends Animal
+{
+}

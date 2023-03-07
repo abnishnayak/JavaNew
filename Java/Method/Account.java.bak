@@ -1,0 +1,34 @@
+class Account 
+{
+	String name;
+	int accNo;
+	double bal;
+}
+class Test3
+{
+	public static void main(String[] args) 
+	{
+		Account a1=new Account();
+		a1.name="Abnish";
+		a1.accNo= 125005;
+		a1.bal=1540;
+		Account a2=new Account();
+		a2.name="Sunil";
+		a2.accNo= 194255;
+		a2.bal=15790;
+		Account a3=new Account();
+		a3.name="Manas";
+		a3.accNo= 181685;
+		a3.bal=1580;
+		Account a4=new Account();
+		a4.name="Ashirbad";
+		a4.accNo= 126515;
+		a4.bal=1840;
+		System.out.println(a1.name);
+		System.out.println(a1.accNo);
+		System.out.println(a1.bal);
+		System.out.println(a2.name);
+		System.out.println(a2.accNo);
+		System.out.println(a2.bal);
+	}
+}
