@@ -1,0 +1,27 @@
+masterdetail/IObservableFa
+ ctory.class
+SHA-256-Digest: ISEXvUU2JXzMLw7WNudWstT1qrsuQpEhp54VCOxRspA=
+
+Name: org/eclipse/core/internal/databinding/observable/masterdetail/MapD
+ etailValueObservableMap.class
+SHA-256-Digest: owxfwFwFmOZzP9/+S/5jrjBcvIMZDJojPV/zwpjqrSU=
+
+Name: org/eclipse/core/internal/databinding/observable/masterdetail/Deta
+ ilObservableHelper.class
+SHA-256-Digest: vbre4h/DZbSksK+kgFBxbbUutdG7A9qvqfY3YgKccss=
+
+Name: org/eclipse/core/databinding/observable/set/ComputedSet$1.class
+SHA-256-Digest: bC/iunDiVHepNs4tl9u4qKi51we7ysh7Uzuo1c01yOg=
+
+Name: org/eclipse/core/databinding/observable/value/ValueChangeEvent.cla
+ ss
+SHA-256-Digest: tzyRamXPt3p4xFyXByd38d0NGB0JHcWCz3RcvNHHcBY=
+
+Name: org/eclipse/core/internal/databinding/observable/Queue.class
+SHA-256-Digest: G/zuIgM699h3x1ESt8ymC8X09Mb4mJlUlT+5zHs4wig=
+
+Name: org/eclipse/core/databinding/observable/Diffs$UnmodifiableMapDiff.
+ class
+SHA-256-Digest: 1Ln65jJ9T3RozTsmQCuyk4cINZT0cIOjr6Bo72ADTfw=
+
+Nam

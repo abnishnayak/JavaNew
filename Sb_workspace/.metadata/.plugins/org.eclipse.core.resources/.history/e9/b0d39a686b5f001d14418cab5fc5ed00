@@ -1,0 +1,5 @@
+package com.abnishn.server.main.user;
+
+public class User {
+
+}

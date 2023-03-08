@@ -1,0 +1,13 @@
+package com.abnishn.server.main;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+@RestController
+
+public class DemoRestController {
+	
+	@GetMapping(path="/jc")
+	public String demoWork() {
+		return "This is a demo.";
+	}
+}

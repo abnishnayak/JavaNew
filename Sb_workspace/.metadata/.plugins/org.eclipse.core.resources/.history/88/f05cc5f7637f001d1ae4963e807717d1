@@ -1,0 +1,32 @@
+EszT5KXdo=
+
+Name: org/bouncycastle/jcajce/provider/digest/Skein$DigestSkein1024.clas
+ s
+SHA-256-Digest: cHDLYn/bfGOfsntiD4JCV71GNh9+6CGBMDSLJG6Ct7M=
+
+Name: org/bouncycastle/asn1/DEROctetString.class
+SHA-256-Digest: PZOHEmJCup2CtGBr2sIEj1Mnf8Whv4s7SO9U7Oo7IzU=
+
+Name: org/bouncycastle/asn1/bc/EncryptedPrivateKeyData.class
+SHA-256-Digest: 2NAYbmUctRIvR1Xuri41sikn6Q/NmrAUr3NvczoZ1Eg=
+
+Name: org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner$dsa512.c
+ lass
+SHA-256-Digest: fng9BtNuzSZRbiJAhCUhEHrmR4/ujeiVy6q2JlbS4/0=
+
+Name: org/bouncycastle/jcajce/provider/symmetric/DES$DES64.class
+SHA-256-Digest: iN6E7Xvw1n5SO5BTBNRKKtRG5bXE9mUardo60slEiGM=
+
+Name: org/bouncycastle/jcajce/provider/util/AlgorithmProvider.class
+SHA-256-Digest: 7SwKZhKoNcOEyYV7jD+tHkv9AANfpRnaH0jW0cAJL8c=
+
+Name: org/bouncycastle/jcajce/provider/digest/SHA256$HashMac.class
+SHA-256-Digest: rQHaF9UpFb83LBkGeFGhIayuQDEQsrTBz3tPbORDyYM=
+
+Name: org/bouncycastle/jcajce/provider/digest/SHA384$OldSHA384.class
+SHA-256-Digest: lknLd+NVPJFM4uQTJnKyVIJgMm8kUW1SB5uRGvcu3ls=
+
+Name: org/bouncycastle/pqc/crypto/sphincs/Tree$leafaddr.class
+SHA-256-Digest: NQpu9cWKlvlb4VOSBVGTXfClINlf4ZF/O+iPFUOMDZY=
+
+Name: META-INF/versions/9/org/bouncycastl

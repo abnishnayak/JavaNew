@@ -1,0 +1,5 @@
+package com.abnishn.JavaRest.model;
+
+public class User {
+
+}

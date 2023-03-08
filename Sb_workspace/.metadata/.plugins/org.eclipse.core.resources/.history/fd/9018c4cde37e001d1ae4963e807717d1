@@ -1,0 +1,49 @@
+rt(listItem) {
+    return listItem.children.length === 0 ? -1 : listItem.children[0].position.start.column - 1;
+  }
+
+  function isAligned(list) {
+    if (!list.ordered) {
+      /**
+       * - 123
+       * - 123
+       */
+      return true;
+    }
+
+    const [firstItem, secondItem] = list.children;
+    const firstInfo = getOrderedListItemInfo$1(firstItem, options.originalText);
+
+    if (firstInfo.leadingSpaces.length > 1) {
+      /**
+       * 1.   123
+       *
+       * 1.   123
+       * 1. 123
+       */
+      return true;
+    }
+
+    const firstStart = getListItemStart(firstItem);
+
+    if (firstStart === -1) {
+      /**
+       * 1.
+       *
+       * 1.
+       * 1.
+       */
+      return false;
+    }
+
+    if (list.children.length === 1) {
+      /**
+       * aligned:
+       *
+       * 11. 123
+       *
+       * not aligned:
+       *
+       * 1. 123
+       */
+      return firs

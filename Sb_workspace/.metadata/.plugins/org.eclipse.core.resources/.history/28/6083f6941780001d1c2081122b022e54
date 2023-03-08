@@ -1,0 +1,32 @@
+ts a [command](#Command) that should be shown along with
+ * source text, like the number of references, a way to run tests, etc.
+ *
+ * A code lens is _unresolved_ when no command is associated to it. For performance
+ * reasons the creation of a code lens and resolving should be done to two stages.
+ */
+export interface CodeLens {
+    /**
+     * The range in which this code lens is valid. Should only span a single line.
+     */
+    range: Range;
+    /**
+     * The command this code lens represents.
+     */
+    command?: Command;
+    /**
+     * A data entry field that is preserved on a code lens item between
+     * a [CodeLensRequest](#CodeLensRequest) and a [CodeLensResolveRequest]
+     * (#CodeLensResolveRequest)
+     */
+    data?: any;
+}
+/**
+ * The CodeLens namespace provides helper functions to work with
+ * [CodeLens](#CodeLens) literals.
+ */
+export declare namespace CodeLens {
+    /**
+     * Creates a new CodeLens literal.
+     */
+    function create(range: Range, data?: any): CodeLens;
+    /

@@ -1,0 +1,5 @@
+package com.abnishn.configuration;
+
+public class SpringWebInitializer {
+
+}

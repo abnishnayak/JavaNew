@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+Created-By: 11.0.11 (AdoptOpenJDK)
+SHA-256-Digest-Manifest: 98Vm2IJj9j9n/V7s4cOPbpctt11t1AlFUgg7j949RiQ=
+SHA-256-Digest-Manifest-Main-Attributes: jY0SuGID9bR2uTw3NZtZeHdwtnOpbG3
+ IWNJq/khYnOo=
+
+Name: org/eclipse/core/databinding/observable/map/DecoratingObservableMa
+ p$BackedCollection.class
+SHA-256-Digest: 54osTWhFh6g7ZvQsiNxhpMW/ExMRQ4rY3+0LpuUX7BY=
+
+Name: org/eclipse/core/databinding/observable/list/ListDiff$1.class
+SHA-256-Digest: BJbfrxAQ7/X+gvhIbgtQl6tekwD3uo5Xrc81i3J7Ryo=
+
+Name: org/eclipse/core/databinding/observable/map/MapDiff$DeltaMapEntryS
+ et.class
+SHA-256-Digest: jptjP1ySLUhKpBG2sdIKnqGa/8Ndh/kbc0CnNBmXzFQ=
+
+Name: org/eclipse/core/internal/databinding/observable/UnmodifiableObser
+ vableSet.class
+SHA-256-Digest: d6Cz/vN4iBoO5IjDO9ipgtUrMB9AdKtnS5cUxAPDz7w=
+
+Name: org/eclipse/core/databinding/observable/Diffs$UnmodifiableSetDiff.
+ class
+SHA-256-Digest: 0/Y5zzfRdFdYnAsMQ/mP9wiAeVYuBQiOSA6HV3Zmues=
+
+Name: org/eclipse/core/databi

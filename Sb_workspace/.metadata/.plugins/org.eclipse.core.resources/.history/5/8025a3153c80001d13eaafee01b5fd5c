@@ -1,0 +1,8 @@
+package com.abnishn.model;
+
+import javax.persistence.Column;
+import javax.per
+
+public class User {
+
+}

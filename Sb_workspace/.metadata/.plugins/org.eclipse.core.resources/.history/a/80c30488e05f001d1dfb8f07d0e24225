@@ -1,0 +1,18 @@
+package com.abnishn.server.main;
+
+import java.util.Scanner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+
+public class RestWsApplication {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter your name: ");
+		String str=s.next();
+		System.out.println("hello "+str+", this is a demo.");
+		SpringApplication.run(RestWsApplication.class, args);
+		s.close();
+	}
+}

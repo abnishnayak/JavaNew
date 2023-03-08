@@ -1,0 +1,41 @@
+ed "about.html" ("Abouts"). The terms and\n\
+conditions governing Features and Included Features should be contained\n\
+in files named "license.html" ("Feature Licenses"). Abouts and Feature\n\
+Licenses may be located in any directory of a Download or Module\n\
+including, but not limited to the following locations:\n\
+\n\
+\t- The top-level (root) directory\n\
+\t- Plug-in and Fragment directories\n\
+\t- Inside Plug-ins and Fragments packaged as JARs\n\
+\t- Sub-directories of the directory named "src" of certain Plug-ins\n\
+\t- Feature directories\n\
+\n\
+Note: if a Feature made available by the Eclipse Foundation is installed using the\n\
+Provisioning Technology (as defined below), you must agree to a license ("Feature \n\
+Update License") during the installation process. If the Feature contains\n\
+Included Features, the Feature Update License should either provide you\n\
+with the terms and conditions governing the Included Features or inform\n\
+you where you can locate them. Feature Update Licenses may be found in\n\
+the "license" property of files named "feature.properties" found within a Feature.\n\
+Such Abouts, Feature Licenses, and Feature Update Licenses contain the\n\
+terms and conditions (or references to such terms and conditions) that\n\
+govern your use of the associated Content in that directory.\n\
+\n\
+THE ABOUTS, FEATURE LICENSES, AND FEATURE UPDATE LICENSES MAY REFER\n\
+TO THE EPL OR OTHER LICENSE AGREEMENTS, NOTICES OR TERMS AND CONDITIONS.\n\
+SOME OF THESE OTHER LICENSE AGREEMENTS MAY INCLUDE (BUT ARE NOT LIMITED TO):\n\
+\n\
+\t- Eclipse Distribution License Version 1.0 (available at http://www.eclipse.org/licenses/edl-v1.0.html)\n\
+\t- Common Public License Version 1.0 (available at http://www.eclipse.org/legal/cpl-v10.html)\n\
+\t- Apache Software License 1.1 (available at http://www.apache.org/licenses/LICENSE)\n\
+\t- Apache Software License 2.0 (available at http://www.apache.org/licenses/LICENSE-2.0)\n\
+\t- Mozilla Public License Version 1.1 (available at http://www.mozilla.org/MPL/MPL-1.1.html)\n\
+\n\
+IT IS YOUR OBLIGATION TO READ AND ACCEPT ALL SUCH TERMS AND CONDITIONS PRIOR\n\
+TO USE OF THE CONTENT. If no About, Feature License, or Feature Update License\n\
+is provided, please contact the Eclipse Foundation to determine what terms and conditions\n\
+govern that particular Content.\n\
+\n\
+\n\Use of Provisioning Technology\n\
+\n\
+The Eclipse Foundation makes available 

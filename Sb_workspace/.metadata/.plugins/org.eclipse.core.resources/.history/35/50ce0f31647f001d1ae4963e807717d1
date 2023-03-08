@@ -1,0 +1,5 @@
+package com.abnishn.service;
+
+public interface service {
+
+}

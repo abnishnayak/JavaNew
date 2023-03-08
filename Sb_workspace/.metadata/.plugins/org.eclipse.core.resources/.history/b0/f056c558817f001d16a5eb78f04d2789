@@ -1,0 +1,5 @@
+package com.abnishn.exception;
+
+public class ResourceNotFoundException {
+
+}

@@ -1,0 +1,15 @@
+package com.abnishn.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@RestController
+public class GetController {
+	@GetMapping("/{name}")
+    public String get(@PathVariable String name) {
+        String get = "Hello!!! " + name;
+        return get;
+    }
+
+}

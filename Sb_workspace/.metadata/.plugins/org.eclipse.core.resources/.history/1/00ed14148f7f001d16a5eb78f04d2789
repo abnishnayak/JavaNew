@@ -1,0 +1,17 @@
+package com.abnishn.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.abnishn.model.UserDetails;
+
+public interface UserService {
+	UserDetails save(UserDetails userDetails);
+	UserDetails update(UserDetails userDetails);
+	
+	void deleteById(Long userid);
+	
+	Optional<UserDetails> findById(Long userid);
+	
+	List<UserDetails> findAll();
+}

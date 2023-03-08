@@ -1,0 +1,20 @@
+package com.abnishn.server.main;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+@RestController
+
+public class HelloWorldController {
+	
+	@GetMapping("/test")
+	public String demoWork() {
+		return "This is a test.";
+	}
+	@GetMapping("/demo")
+	public Demo demo() {
+		return new Demo("This is a demo");
+	}
+}
