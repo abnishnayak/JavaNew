@@ -1,0 +1,48 @@
+const utils = require('./utils');
+
+class Cell {
+  /**
+   * A representation of a cell within the table.
+   * Implementations must have `init` and `draw` methods,
+   * as well as `colSpan`, `rowSpan`, `desiredHeight` and `desiredWidth` properties.
+   * @param options
+   * @constructor
+   */
+  constructor(options) {
+    this.setOptions(options);
+
+    /**
+     * Each cell will have it's `x` and `y` values set by the `layout-manager` prior to
+     * `init` being called;
+     * @type {Number}
+     */
+    this.x = null;
+    this.y = null;
+  }
+
+  setOptions(options) {
+    if (['boolean', 'number', 'string'].indexOf(typeof options) !== -1) {
+      options = { content: '' + options };
+    }
+    options = options || {};
+    this.options = options;
+    let content = options.content;
+    if (['boolean', 'number', 'string'].indexOf(typeof content) !== -1) {
+      this.content = String(content);
+    } else if (!content) {
+      this.content = '';
+    } else {
+      throw new Error('Content needs to be a primitive, got: ' + typeof content);
+    }
+    this.colSpan = options.colSpan || 1;
+    this.rowSpan = options.rowSpan || 1;
+  }
+
+  mergeTableOptions(tableOptions, cells) {
+    this.cells = cells;
+
+    let optionsChars = this.options.chars || {};
+    let tableChars = tableOptions.chars;
+    let chars = (this.chars = {});
+    CHAR_NAMES.forEach(function (name) {
+      setOption(optionsChars, tableChars, na

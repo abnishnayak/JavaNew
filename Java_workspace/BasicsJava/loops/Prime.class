@@ -1,0 +1,41 @@
+/*****************************************************************************************************
+ * Project Name		:	VLS CR GUI
+ * Document Name	: 	VLSApplicationConfiguration.java
+ * Package			:	com.ge.gemoney.vlscrgui.common
+ * Desc				:	
+ * Version:			:	1.0
+ * Modifications    :
+ * Date:			:	Jan 9, 2008
+ * Author			:	iGate Global Solutions
+ ****************************************************************************************************/
+package org.john.alpari.quickfixj;
+
+import java.io.ByteArrayInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+
+
+/**
+ * Holds all the application configuration properties
+ * 
+ */
+public class AutoTradingApplicationConfiguration {
+
+	private Properties applicationProperties;
+	private Properties configProperties;
+
+	private static AutoTradingApplicationConfiguration instance;
+
+	/**
+	 * Constructor loads the application configuration properties to
+	 * <code>java.uitl.Properties</code> object
+	 * 
+	 */
+	private AutoTradingApplicationConfiguration() {
+		applicationProperties = new Properties();
+		configProperties = new Properties();
+		try {
+			//applicationProperties.load(new FileInputStream("D:\\GetACoder\\spancer\\ApplicationCo

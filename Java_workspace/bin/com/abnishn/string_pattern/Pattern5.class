@@ -1,0 +1,7 @@
+Id` in the parameters had `description` _updated_. The `timestamp` in the parameters had `name` _updated_. The `timestamp` in the parameters had `$ref` _updated_. The `timestamp` in the parameters had `description` _updated_. The `type` in the parameters had `name` _updated_. The `type` in the parameters had `$ref` _updated_. The `type` in the parameters had `description` _updated_. The `response` in the parameters had `name` _updated_. The `response` in the parameters had `$ref` _updated_. The `response` in the parameters had `description` _updated_. The parameters's `optional` _added_. The parameters's `experimental` _added_. 
+
+
+## Roll protocol to r483799
+###### _2017-06-30 13:15:20_ | Diff: [8fad5bb...e2e55ea](https://github.com/ChromeDevTools/devtools-protocol/compare/8fad5bb...e2e55ea)
+#### `DOMSnapshot`: modified type
+* [`DOMSnapshot.DOMNode`](https://chromedevtools.github.io/devtools-protocol/tot/DOMSnapshot/#type-DOMNode) - The `frameId` in the properties had `$ref` _removed_. The `contentDocumentIndex` in the properties had `type` _removed_. The `pseudoType` in the properties had `$ref` _removed_

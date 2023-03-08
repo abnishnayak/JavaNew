@@ -1,0 +1,7 @@
+. 
+* [`Network.SecurityDetails`](https://chromedevtools.github.io/devtools-protocol/tot/Network/#type-SecurityDetails) - The `validFrom` in the properties had `$ref` _updated_. The `validTo` in the properties had `$ref` _updated_. 
+#### `Input`: modified commands
+* [`Input.dispatchKeyEvent`](https://chromedevtools.github.io/devtools-protocol/tot/Input/#method-dispatchKeyEvent) - The `timestamp` in the parameters had `type` _removed_. The `timestamp` in the parameters had `description` _updated_. The parameters's `$ref` _added_. 
+* [`Input.dispatchMouseEvent`](https://chromedevtools.github.io/devtools-protocol/tot/Input/#method-dispatchMouseEvent) - The `timestamp` in the parameters had `type` _removed_. The `timestamp` in the parameters had `description` _updated_. The parameters's `$ref` _added_. 
+* [`Input.dispatchTouchEvent`](https://chromedevtools.github.io/devtools-protocol/tot/Input/#method-dispatchTouchEvent) - The `timestamp` in the parameters had `type` _removed_. The `timestamp` in the parameters had `description` _updated_. The parameters's `$ref` _added_. 
+* [`Input.emulateTouchFromMouseEvent`]

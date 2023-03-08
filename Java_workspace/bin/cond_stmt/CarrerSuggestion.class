@@ -1,0 +1,30 @@
+name: release-please
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v2
+        id: release
+        with:
+          package-name: node-gyp
+          release-type: node
+          changelog-types: >
+            [{"type":"feat","section":"Features","hidden":false},
+            {"type":"fix","section":"Bug Fixes","hidden":false},
+            {"type":"bin","section":"Core","hidden":false},
+            {"type":"gyp","section":"Core","hidden":false},
+            {"type":"lib","section":"Core","hidden":false},
+            {"type":"src","section":"Core","hidden":false},
+            {"type":"test","section":"Tests","hidden":false},
+            {"type":"build","section":"Core","hidden":false},
+            {"type":"clean","section":"Core","hidden":false},
+            {"type":"configure","section":"Core","hidden":false},
+            {"type":"install","section":"Core","hidden":false},
+            {"type":"list","section":"Core","hidden":false},
+            {"type":"rebuild","section":"C

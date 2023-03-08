@@ -1,0 +1,80 @@
+package org.john.alpari.quickfixj;
+
+import java.util.Date;
+
+public class TradeExecutionReport {
+
+	String clOrdID;
+	char orderStatus;
+	String symbol;
+	double orderQty;
+	String currency;
+	String orderID;
+	double price;
+	char execType;
+	char side;
+	double cumQty;
+	Date transactionTime;
+	public Date getTransactionTime() {
+		return transactionTime;
+	}
+	public void setTransactionTime(Date transactionTime) {
+		this.transactionTime = transactionTime;
+	}
+	/**
+	 * @return the cumQty
+	 */
+	public double getCumQty() {
+		return cumQty;
+	}
+	/**
+	 * @param cumQty the cumQty to set
+	 */
+	public void setCumQty(double cumQty) {
+		this.cumQty = cumQty;
+	}
+	/**
+	 * @return the leaveQty
+	 */
+	public double getLeaveQty() {
+		return leaveQty;
+	}
+	/**
+	 * @param leaveQty the leaveQty to set
+	 */
+	public void setLeaveQty(double leaveQty) {
+		this.leaveQty = leaveQty;
+	}
+	double leaveQty;
+	/**
+	 * @return the side
+	 */
+	public char getSide() {
+		return side;
+	}
+	/**
+	 * @param side the side to set
+	 */
+	public void setSide(char side) {
+		this.side = side;
+	}
+	/**
+	 * @return the execType
+	 */
+	public char getExecType() {
+		return execType;
+	}
+	/**
+	 * @param execType the execType to set
+	 */
+	public void setExecType(char execType) {
+		this.execType = execType;
+	}
+	/**
+	 * @return the clOrdID
+	 */
+	public String getClOrdID() {
+		return clOrdID;
+	}
+	/**
+	 * @param clOrdID the clOrdID to

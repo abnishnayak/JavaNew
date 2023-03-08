@@ -1,0 +1,31 @@
+;
+        delimiters.splice(_toPos, 1);
+        /* istanbul ignore else */
+      } else if (operation === '+') {
+        lines.splice(_toPos, 0, content);
+        delimiters.splice(_toPos, 0, delimiter);
+        _toPos++;
+      } else if (operation === '\\') {
+        var previousOperation = _hunk.lines[j - 1] ? _hunk.lines[j - 1][0] : null;
+
+        if (previousOperation === '+') {
+          removeEOFNL = true;
+        } else if (previousOperation === '-') {
+          addEOFNL = true;
+        }
+      }
+    }
+  } // Handle EOFNL insertion/removal
+
+
+  if (removeEOFNL) {
+    while (!lines[lines.length - 1]) {
+      lines.pop();
+      delimiters.pop();
+    }
+  } else if (addEOFNL) {
+    lines.push('');
+    delimiters.push('\n');
+  }
+
+  for (var _k = 0; _
